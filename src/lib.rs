@@ -8,8 +8,6 @@ pub mod province_generator;
 pub mod world;
 pub mod settings;
 pub mod utils;
-pub mod resource_map_generator;
-pub mod province_terrain;
 
 use continent_generator::generate_continents;
 use province_generator::{Province, generate_provinces};
