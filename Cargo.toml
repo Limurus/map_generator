@@ -1,0 +1,14 @@
+[package]
+name = "map_generator"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 3
+
+[dependencies]
+rand = "0.8.5"
+image = "0.24.8"
+noise = {version = "0.8.2", features = ["images"]}
+chrono = "0.4.37"
+lazy_static = "1.4.0"
